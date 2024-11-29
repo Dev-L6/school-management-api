@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import schoolRoutes from "./routes/school.route.js";
 
+
 dotenv.config();
 
 const app = express();
